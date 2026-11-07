@@ -214,7 +214,7 @@ pub fn increment_thread_local() -> usize {
     // TODO: Use THREAD_COUNT.with to increment and return the new count
     THREAD_COUNT.with(|cell| {
         let mut count = cell.borrow_mut();
-        *count += 1;
+        *count+=1;
         *count
     })
 }
