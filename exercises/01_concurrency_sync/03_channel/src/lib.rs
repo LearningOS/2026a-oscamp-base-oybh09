@@ -47,10 +47,11 @@ pub fn multi_producer(n_producers: usize) -> Vec<String> {
         }));
     }
     drop(tx);
-    let res=rx.iter().collect();
+    let mut res:Vec<String>=rx.iter().collect();
     for h in handles{
         h.join().unwrap();
     }
+    res.sort();
     res
 }
 
