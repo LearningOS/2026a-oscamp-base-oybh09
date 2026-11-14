@@ -61,7 +61,8 @@ pub fn run_command(program: &str, args: &[&str]) -> String {
     String::from_utf8_lossy(&bytes.stdout).to_string()
 }
 
-/// Write data to child process (cat) stdin via pipe and read its stdout output.
+/// Write data to child process (cat) stdin via pipe and r
+/// ead its stdout output.
 ///
 /// This demonstrates bidirectional pipe communication between parent and child processes.
 ///
