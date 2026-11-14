@@ -2,8 +2,8 @@
   "schema": 1,
   "courseId": 2074,
   "repository": "LearningOS/2026a-oscamp-base-oybh09",
-  "commit": "a965eee6035408993720d2da1878288667322bdc",
-  "score": 15,
+  "commit": "8212642e9d605a15c659e3e1422969de5b9956a7",
+  "score": 29,
   "totalScore": 100,
   "exercises": [
     {
@@ -37,23 +37,23 @@
     {
       "name": "mem_primitives",
       "max": 4,
-      "score": 0,
-      "status": "fail",
-      "exitCode": 101
+      "score": 4,
+      "status": "pass",
+      "exitCode": 0
     },
     {
       "name": "bump_allocator",
       "max": 5,
-      "score": 0,
-      "status": "fail",
-      "exitCode": 101
+      "score": 5,
+      "status": "pass",
+      "exitCode": 0
     },
     {
       "name": "free_list_allocator",
       "max": 5,
-      "score": 0,
-      "status": "fail",
-      "exitCode": 101
+      "score": 5,
+      "status": "pass",
+      "exitCode": 0
     },
     {
       "name": "syscall_wrapper",
@@ -176,9 +176,9 @@
     }
   ],
   "student": "oybh09",
-  "runId": "42463695188",
+  "runId": "43550244751",
   "runAttempt": "1",
   "upload": {
-    "status": "accepted"
+    "status": "pending"
   }
 }
