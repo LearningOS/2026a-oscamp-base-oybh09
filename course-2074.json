@@ -2,8 +2,8 @@
   "schema": 1,
   "courseId": 2074,
   "repository": "LearningOS/2026a-oscamp-base-oybh09",
-  "commit": "74ffe8bc2ad56601276966b08c44325332129e71",
-  "score": 51,
+  "commit": "6009b3dd753232942f341200bbade92943efe39b",
+  "score": 55,
   "totalScore": 100,
   "exercises": [
     {
@@ -93,9 +93,9 @@
     {
       "name": "spinlock_guard",
       "max": 4,
-      "score": 0,
-      "status": "fail",
-      "exitCode": 101
+      "score": 4,
+      "status": "pass",
+      "exitCode": 0
     },
     {
       "name": "rwlock",
@@ -176,9 +176,9 @@
     }
   ],
   "student": "oybh09",
-  "runId": "43692518116",
+  "runId": "43703997789",
   "runAttempt": "1",
   "upload": {
-    "status": "accepted"
+    "status": "pending"
   }
 }
