@@ -2,8 +2,8 @@
   "schema": 1,
   "courseId": 2074,
   "repository": "LearningOS/2026a-oscamp-base-oybh09",
-  "commit": "f02b0b641f7c7e976806347d51bc98cf9648c9c8",
-  "score": 39,
+  "commit": "74ffe8bc2ad56601276966b08c44325332129e71",
+  "score": 51,
   "totalScore": 100,
   "exercises": [
     {
@@ -72,23 +72,23 @@
     {
       "name": "atomic_counter",
       "max": 4,
-      "score": 0,
-      "status": "fail",
-      "exitCode": 101
+      "score": 4,
+      "status": "pass",
+      "exitCode": 0
     },
     {
       "name": "atomic_ordering",
       "max": 4,
-      "score": 0,
-      "status": "fail",
-      "exitCode": 101
+      "score": 4,
+      "status": "pass",
+      "exitCode": 0
     },
     {
       "name": "spinlock",
       "max": 4,
-      "score": 0,
-      "status": "fail",
-      "exitCode": 101
+      "score": 4,
+      "status": "pass",
+      "exitCode": 0
     },
     {
       "name": "spinlock_guard",
@@ -176,9 +176,9 @@
     }
   ],
   "student": "oybh09",
-  "runId": "43671440798",
+  "runId": "43692518116",
   "runAttempt": "1",
   "upload": {
-    "status": "accepted"
+    "status": "pending"
   }
 }
