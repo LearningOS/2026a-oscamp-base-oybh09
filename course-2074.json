@@ -2,8 +2,8 @@
   "schema": 1,
   "courseId": 2074,
   "repository": "LearningOS/2026a-oscamp-base-oybh09",
-  "commit": "6d71ee7d19857b690239cefcb2e0ffa6a53fb1b4",
-  "score": 60,
+  "commit": "99d7ee11750c541b0b09888716d02cee836edce3",
+  "score": 66,
   "totalScore": 100,
   "exercises": [
     {
@@ -107,9 +107,9 @@
     {
       "name": "stack_coroutine",
       "max": 6,
-      "score": 0,
-      "status": "fail",
-      "exitCode": 101
+      "score": 6,
+      "status": "pass",
+      "exitCode": 0
     },
     {
       "name": "green_threads",
@@ -176,9 +176,9 @@
     }
   ],
   "student": "oybh09",
-  "runId": "43718441571",
+  "runId": "43996408708",
   "runAttempt": "1",
   "upload": {
-    "status": "accepted"
+    "status": "pending"
   }
 }
