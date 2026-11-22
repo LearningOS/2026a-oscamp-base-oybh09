@@ -2,8 +2,8 @@
   "schema": 1,
   "courseId": 2074,
   "repository": "LearningOS/2026a-oscamp-base-oybh09",
-  "commit": "ef7646394a6b71c89bc9bbaf14bcf3bc86b26979",
-  "score": 72,
+  "commit": "3da128569a767bfd31a540ce340548e497c3b277",
+  "score": 77,
   "totalScore": 100,
   "exercises": [
     {
@@ -100,9 +100,9 @@
     {
       "name": "rwlock",
       "max": 5,
-      "score": 5,
-      "status": "pass",
-      "exitCode": 0
+      "score": 0,
+      "status": "timeout",
+      "exitCode": 124
     },
     {
       "name": "stack_coroutine",
@@ -121,23 +121,23 @@
     {
       "name": "basic_future",
       "max": 4,
-      "score": 0,
-      "status": "fail",
-      "exitCode": 101
+      "score": 4,
+      "status": "pass",
+      "exitCode": 0
     },
     {
       "name": "tokio_tasks",
       "max": 3,
-      "score": 0,
-      "status": "fail",
-      "exitCode": 101
+      "score": 3,
+      "status": "pass",
+      "exitCode": 0
     },
     {
       "name": "async_channel_ex",
       "max": 3,
-      "score": 0,
-      "status": "fail",
-      "exitCode": 101
+      "score": 3,
+      "status": "pass",
+      "exitCode": 0
     },
     {
       "name": "select_timeout",
@@ -176,9 +176,9 @@
     }
   ],
   "student": "oybh09",
-  "runId": "44082307442",
+  "runId": "45051732630",
   "runAttempt": "1",
   "upload": {
-    "status": "accepted"
+    "status": "pending"
   }
 }
