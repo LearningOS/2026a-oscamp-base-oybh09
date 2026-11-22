@@ -9,6 +9,7 @@
 
 use std::future::Future;
 use std::pin::Pin;
+use std::process::Output;
 use std::task::{Context, Poll};
 
 /// Countdown Future: decrements count by 1 each time it's polled,
@@ -33,7 +34,13 @@ impl Future for CountDown {
     type Output = &'static str;
 
     fn poll(self: Pin<&mut Self>, cx: &mut Context<'_>) -> Poll<Self::Output> {
-        todo!()
+        let mut work=self.get_mut();
+        if work.count==0 {
+            return Poll::Ready("liftoff!");
+        }
+        work.count-=1;
+        cx.waker().wake_by_ref();
+        Poll::Pending
     }
 }
 
@@ -57,7 +64,12 @@ impl Future for YieldOnce {
     type Output = ();
 
     fn poll(self: Pin<&mut Self>, cx: &mut Context<'_>) -> Poll<Self::Output> {
-        todo!()
+        if self.yielded==true{
+            return Poll::Ready(())
+        }
+        (self).get_mut().yielded=true;
+        cx.waker().wake_by_ref();
+        Poll::Pending
     }
 }
 
