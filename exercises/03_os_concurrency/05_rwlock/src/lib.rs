@@ -97,7 +97,7 @@ impl<T> RwLock<T> {
                 continue;
             }
             if self.state.compare_exchange(
-                WRITER_WAITING, WRITER_HOLDING, Ordering::Release, Ordering::Relaxed
+                state, WRITER_HOLDING, Ordering::Release, Ordering::Relaxed
             ).is_ok(){
                 return RwLockWriteGuard { lock: self };
             }
