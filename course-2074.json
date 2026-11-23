@@ -2,8 +2,8 @@
   "schema": 1,
   "courseId": 2074,
   "repository": "LearningOS/2026a-oscamp-base-oybh09",
-  "commit": "3da128569a767bfd31a540ce340548e497c3b277",
-  "score": 77,
+  "commit": "9a9174b902cc8c78368d59684a3aaba9161e2499",
+  "score": 82,
   "totalScore": 100,
   "exercises": [
     {
@@ -100,9 +100,9 @@
     {
       "name": "rwlock",
       "max": 5,
-      "score": 0,
-      "status": "timeout",
-      "exitCode": 124
+      "score": 5,
+      "status": "pass",
+      "exitCode": 0
     },
     {
       "name": "stack_coroutine",
@@ -176,9 +176,9 @@
     }
   ],
   "student": "oybh09",
-  "runId": "45051732630",
+  "runId": "45116487047",
   "runAttempt": "1",
   "upload": {
-    "status": "accepted"
+    "status": "pending"
   }
 }
